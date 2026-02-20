@@ -1,0 +1,16 @@
+<?php
+$village = [
+    "name" => "Deri Pipariya",
+    "taluka" => "Babra",
+    "district" => "Amreli",
+    "governance" => "Gram Panchayat",
+    "pincode" => 365421
+];
+
+echo "<h1>Village Info: " . $village['name'] . "</h1>";
+echo "<ul>";
+foreach ($village as $key => $value) {
+    echo "<li>" . ucfirst($key) . ": " . $value . "</li>";
+}
+echo "</ul>";
+?>
