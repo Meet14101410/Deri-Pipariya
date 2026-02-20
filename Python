@@ -1,0 +1,15 @@
+def print_village_details():
+    deri_pipariya = {
+        "Name": "Deri Pipariya",
+        "Taluka": "Babra",
+        "District": "Amreli",
+        "State": "Gujarat",
+        "Primary_Industry": "Agriculture"
+    }
+
+    print(f"--- Details for {deri_pipariya['Name']} ---")
+    for key, value in deri_pipariya.items():
+        print(f"{key}: {value}")
+
+if __name__ == "__main__":
+    print_village_details()
