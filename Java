@@ -1,0 +1,15 @@
+public class VillageData {
+    String villageName = "Deri Pipariya";
+    String taluka = "Babra";
+    String district = "Amreli";
+    
+    public void displayProfile() {
+        System.out.println("Data for Village: " + villageName);
+        System.out.println("Located in Taluka: " + taluka);
+        System.out.println("Part of District: " + district);
+    }
+
+    public static void main(String[] args) {
+        new VillageData().displayProfile();
+    }
+}
